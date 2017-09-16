@@ -9,13 +9,37 @@
 
 /** Category styles **/
 .categories {
-	margin: 2em 3em;
+	margin: 2em 1em;
 }
 
 .category {
+	padding: 1em 2em;
+	margin-bottom: 2em;
 	background-color: #ccc;
 }
 
 .category .text {
 	margin: 1.5em 0;
+}
+
+.category .action {
+	text-align: right;
+	padding-top: 1em;
+	padding-right: 1em;
+	border-top: 2px solid #eee;
+}
+
+.category .action a {
+	text-decoration: none;
+}
+
+.category .action i {
+	margin-left: 0.25em;
+}
+
+/** Small devices (tablets, 768px and up) **/
+@media (min-width: 768px) { 
+	.categories {
+		margin: 2em;
+	}
 }
