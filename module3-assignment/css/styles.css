@@ -1,0 +1,21 @@
+/** Navbar styles **/
+.navbar .navbar-collapse {
+	border-color: #ccc;
+}
+
+.navbar-collapse li + li {
+	border-top: 1px solid #eee;
+}
+
+/** Category styles **/
+.categories {
+	margin: 2em 3em;
+}
+
+.category {
+	background-color: #ccc;
+}
+
+.category .text {
+	margin-top: 1.5em;
+}
